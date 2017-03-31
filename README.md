@@ -20,8 +20,10 @@ able to install with something like:
 
 ## Use from Javascript
 
+The value returned is a string data type. In JavaScript, you might want to convert it to integer before using it for calculations.
+
     cordova.getUptime(function (uptime) {
-        console.log("uptime in milliseconds: " + uptime);
+        console.log("uptime in milliseconds: " + parseInt(uptime));
     });
 
 
@@ -30,6 +32,7 @@ able to install with something like:
 * Android
 * iOS
 * Browser
+
 
 ## Credits
 
