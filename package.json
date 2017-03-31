@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-uptime",
+  "version": "0.0.1",
+  "description": "Cordova plugin to return the device uptime, independent from device date/time settings",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinDomig/cordova-plugin-uptime.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "device",
+    "uptime",
+    "app",
+    "plugin"
+  ],
+  "author": "Martin Domig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinDomig/cordova-plugin-uptime/issues"
+  },
+  "homepage": "https://github.com/MartinDomig/cordova-plugin-uptime#readme"
+}
