@@ -21,9 +21,15 @@ able to install with something like:
 ## Use from Javascript
 
     cordova.getUptime(function (uptime) {
-	console.log("uptime in milliseconds: " + uptime);
+        console.log("uptime in milliseconds: " + uptime);
     });
 
+
+## Supported platforms
+
+* Android
+* iOS
+* Browser
 
 ## Credits
 
