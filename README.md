@@ -34,6 +34,12 @@ The value returned is a string data type. In JavaScript, you might want to conve
 * Browser
 
 
+## Quirks
+
+* The return value is a string data type. This is because there is, as far as I know, no way to return a long value from an android cordova plugin. Please let me know if you know better.
+* Browser support is not system time independent. It doesn't return system uptime, but the time since the browser loaded the application.
+
+
 ## Credits
 
 Written by Martin Domig
