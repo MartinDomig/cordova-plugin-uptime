@@ -7,7 +7,7 @@ var getUptime = function (success, fail) {
 };
 
 getUptime.getUptime = function (success, fail) {
-	success(new Date().getTime() - cache);
+	success("" + (new Date().getTime() - cache));
 };
 
 module.exports = getUptime;
